@@ -12,9 +12,9 @@ public class FindNumberInArray {
 			}
 		}
 		if (isPresent) {
-			System.out.println(b + " given number is present");
+			System.out.println(b + "Given number is present");
 		} else {
-			System.out.println(b + " given number is not present");
+			System.out.println(b + "Given number is not present");
 		}
 	}
 }
