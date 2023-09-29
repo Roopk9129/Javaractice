@@ -14,7 +14,7 @@ public class FindNumberInArray {
 		if (isPresent) {
 			System.out.println(b + " given number is present");
 		} else {
-			System.out.println(b + " given number is Not present");
+			System.out.println(b + " given number is not present");
 		}
 	}
 }
