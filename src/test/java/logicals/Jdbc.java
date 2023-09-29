@@ -18,7 +18,7 @@ public class Jdbc {
 	
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/schooldetails","root","root");
 	Statement state = con.createStatement();
-	String query = "select ename,Dname sal from emp,dept where emp.deptno=dept.deptno";
+	String query = "select ename,dname sal from emp,dept where emp.deptno=dept.deptno";
 	ResultSet res = state.executeQuery(query);
 	while(res.next()) {
 		System.out.println(res.getString(1)+"\t"+res.getString(2));
