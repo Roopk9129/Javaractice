@@ -7,6 +7,7 @@ public class RevearseNumber {
 		for(int i=str.length();i>0;i--) {
 			char rev = str.charAt(i-1);
 			System.out.print(rev);
+			
 		}
 		
 	}
