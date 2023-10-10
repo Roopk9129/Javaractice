@@ -15,6 +15,7 @@ public class HashSett {
 		hs.add(40);
 		hs.add(null);
 		hs.add(null);
+		
 		System.out.println(hs);
 		ArrayList<Object> list = new ArrayList<Object>(hs);
 		list.add(10);
