@@ -3,7 +3,7 @@ package Logics1;
 public class Append0sLastInArray {
 
 	public static void main(String[] args) {
-		int[] a = { 4, 0, 0, 2, 6, 0, 0 };
+		int[] a = { 0,4, 0, 0, 2, 6, 0, 0 };
 		int[] b = new int[a.length];
 		int m = 0;
 		int n = a.length - 1;

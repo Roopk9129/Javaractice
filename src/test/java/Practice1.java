@@ -2,8 +2,8 @@
 public class Practice1 {
 
 	public static void main(String[] args) {
-		int a[] = {200, 12, 5, 60, 20, 555, 522,5 };
-		int len =a.length;
+		int a[] = { 200, 12, 5, 60, 20, 555, 522, 5 };
+		int len = a.length;
 		int i;
 		for (i = 0; i < a.length; i++) {
 			for (int j = i + 1; j < a.length; j++) {
@@ -14,6 +14,6 @@ public class Practice1 {
 				}
 			}
 		}
-		System.out.println(a[i - a.length + 1]);
+		System.out.println("First Max No: " + a[i - a.length] + "\n" + "Second Max No: " + a[i - a.length + 1]);
 	}
 }

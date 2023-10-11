@@ -12,11 +12,11 @@ public class FindMinLengthValuesInStringArray {
 			}
 
 		}
-		for(int i=0;i<str.length;i++) {
-			if(str[i].length()==minLen.length()) {
-				System.out.println(str[i]+" ");
+		for (int i = 0; i < str.length; i++) {
+			if (str[i].length() == minLen.length()) {
+				System.out.println(str[i] + " ");
 			}
-			
+
 		}
 	}
 

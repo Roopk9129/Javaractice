@@ -17,7 +17,7 @@ public class CountVowelsWithoutDuplicates {
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A'
 					|| ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
 				count++;
-				System.out.println(ch);
+				System.out.print(ch+" ");
 			}
 			
 		}System.out.println(count);

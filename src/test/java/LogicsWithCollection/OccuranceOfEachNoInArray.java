@@ -9,7 +9,6 @@ public class OccuranceOfEachNoInArray {
 		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
 		for (int i = 0; i < a.length; i++) {
 			set.add(a[i]);
-
 		}
 		for (Integer in : set) {
 			int count = 0;

@@ -6,6 +6,7 @@ public class SegregateAlphaNumsAndSplCharInAString {
 
 	public static void main(String[] args) {
 		String str = "a2B&c3/";
+		
 		String alpha = "";
 		String num = "";
 		String sChar = "";

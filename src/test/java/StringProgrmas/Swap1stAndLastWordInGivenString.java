@@ -1,5 +1,6 @@
 package StringProgrmas;
 
+
 public class Swap1stAndLastWordInGivenString {
 
 	public static void main(String[] args) {
