@@ -11,13 +11,13 @@ public class AdditionofTwoArrayssWithdiffLength {
 		}
 		for (int i = 0; i < length; i++) {
 			try {
-				System.out.println(a[i] + b[i] + " ");
+				System.out.println(a[i] + b[i] );
 
 			} catch (Exception e) {
-				if (a.length < b.length) {
-					System.out.println(b[i]);
-				} else {
+				if (a.length > b.length) {
 					System.out.println(a[i]);
+				} else {
+					System.out.println(b[i]);
 				}
 			}
 

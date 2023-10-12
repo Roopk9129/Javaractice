@@ -3,7 +3,7 @@ package StringProgrmas;
 public class SumOfTwoDigits {
 
 	public static void main(String[] args) {
-		String s = "a10b11c3";
+		String s = "a10b11c3j10";
 		int sum = 0;
 		int tsum = 0;
 

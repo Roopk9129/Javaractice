@@ -3,7 +3,7 @@ package Logics1;
 public class Find1stAnd2ndMaxWithoutBSort {
 
 	public static void main(String[] args) {
-		int[] a = { 5, 10, 15, 6 };
+		int[] a = { 5, 10, 15, 6,15 };
 		int fmax = a[0];
 		int smax = a[0];
 		for (int i = 0; i < a.length; i++) {
