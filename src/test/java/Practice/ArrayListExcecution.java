@@ -12,20 +12,23 @@ public class ArrayListExcecution {
 		al.add("hello");
 		al.add(30);
 		al.add(null);
+		al.add(1, "karthick");
 		System.out.println(al);
-		List<Object> list = new ArrayList<Object>();
-		list.add(40);
-		list.add(50);
-		list.add(10);
-		list.add(5);
-		System.out.println(list);
-		list.addAll(al);
-		System.out.println(list);
-		System.out.println(list.size());
-		System.out.println(list.contains("hello"));
-		for (Object obj : list) {
-			System.out.println(obj);
-		}
+		System.out.println(al.get(1));
+//		List<Object> list = new ArrayList<Object>();
+//		list.add(40);
+//		list.add(50);
+////		list.add(0, list);
+//		list.add(10);
+//		list.add(5);
+//		System.out.println(list);
+//		list.addAll(al);
+//		System.out.println(list);
+//		System.out.println(list.size());
+//		System.out.println(list.contains("hello"));
+//		for (Object obj : list) {
+//			System.out.println(obj);
+//		}
 	}
 
 }

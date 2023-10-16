@@ -13,12 +13,12 @@ public class HashMapp {
 		map.put(5, "hello");
 		map.put(null, 50);
 		map.put(60, null);
-		map.put(null,70);
+		map.put(null, 70);
 		map.put(80, null);
 		System.out.println(map);
-		for(Entry<Integer, Object> m:map.entrySet()) {
-			System.out.println(m.getKey()+" "+m.getValue());
-			
+		for (Entry<Integer, Object> m : map.entrySet()) {
+			System.out.println(m.getKey() + " " + m.getValue());
+
 		}
 	}
 

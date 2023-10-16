@@ -10,6 +10,7 @@ public class OccuranceOfEachNoInArray {
 		for (int i = 0; i < a.length; i++) {
 			set.add(a[i]);
 		}
+
 		for (Integer in : set) {
 			int count = 0;
 			for (int i = 0; i < a.length; i++) {
