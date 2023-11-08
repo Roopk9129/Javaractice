@@ -13,9 +13,7 @@ public class CountNumOfVowelsInAString {
 				VowelCount++;
 			} else {
 				consonents++;
-
 			}
-
 		}
 
 		System.out.println("Vowels Count: " + VowelCount);

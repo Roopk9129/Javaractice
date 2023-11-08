@@ -1,4 +1,4 @@
-package MyPractices;
+  package MyPractices;
 
 public class LowercaseAndUppercaseCount {
 

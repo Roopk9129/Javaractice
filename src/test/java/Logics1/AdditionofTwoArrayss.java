@@ -8,9 +8,7 @@ public class AdditionofTwoArrayss {
 		int[] c = new int[a.length];
 		int i=0;
 		for ( i = 0; i < a.length; i++) {
-
 			c[i] = a[i] + b[i];
-
 		}
 		for (int y = 0; y < c.length; y++) {
 			System.out.println("The sum of"+a[i]+" and "+b[i]+" is "+c[y]);

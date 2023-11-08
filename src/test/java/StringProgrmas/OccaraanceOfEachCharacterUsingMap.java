@@ -19,7 +19,6 @@ public class OccaraanceOfEachCharacterUsingMap {
 			for (int i = 0; i < s.length(); i++) {
 				if (m.getKey() == s.charAt(i)) {
 					count++;
-
 				}
 			}System.out.println(m.getKey()+" "+count);
 

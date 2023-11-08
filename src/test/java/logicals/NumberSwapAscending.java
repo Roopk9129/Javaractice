@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class NumberSwapAscending {
 
 	public static void main(String[] args) {
-		int[] numbers = { 77,66,9,3,8,1,66,99 }; // Replace this array with your desired input
+		int[] numbers = { 77, 66, 9, 3, 8, 1, 66, 99 }; // Replace this array with your desired input
 		System.out.println("Original Array: " + Arrays.toString(numbers));
 
 		// Bubble Sort for ascending order
@@ -23,7 +23,6 @@ public class NumberSwapAscending {
 					swapped = true;
 				}
 			}
-			
 
 			// If no two elements were swapped in the inner loop, the array is already
 			// sorted.
