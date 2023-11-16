@@ -10,9 +10,7 @@ public class BubbleSortDescending {
 					int t = a[i];
 					a[i] = a[j];
 					a[j] = t;
-
 				}
-
 			}
 			System.out.println(a[i]);
 

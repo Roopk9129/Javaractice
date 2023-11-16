@@ -13,7 +13,6 @@ public class Append0sToLast {
 			if (a[i] != 0) {
 				r[m] = a[i];
 				m++;
-				
 
 			} else {
 				r[n] = a[i];

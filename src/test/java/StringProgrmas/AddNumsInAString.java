@@ -4,6 +4,8 @@ public class AddNumsInAString {
 
 	public static void main(String[] args) {
 		String s = "a3b2d4";
+		char[] ch = s.toCharArray();
+		
 		int num = 0;
 
 		for (int i = 0; i < s.length(); i++) {
