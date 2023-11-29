@@ -1,4 +1,4 @@
-package PatternPrograms;
+package AllPatternPrograms;
 
 public class pattern5 {
 
@@ -12,7 +12,7 @@ public class pattern5 {
 			for(int j=i;j<=n;j++) {
 				System.out.print("* ");
 				
-			}System.out.println();
+			}System.out.println( );
 		}
 	}
 

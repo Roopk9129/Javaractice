@@ -1,4 +1,4 @@
-package PatternPrograms;
+package AllPatternPrograms;
 
 public class Pattern10 {
 

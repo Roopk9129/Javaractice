@@ -4,7 +4,6 @@ public class AddNumsInAString {
 
 	public static void main(String[] args) {
 		String s = "a3b2d4";
-		char[] ch = s.toCharArray();
 		
 		int num = 0;
 
@@ -13,7 +12,6 @@ public class AddNumsInAString {
 			if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
 				int n = s.charAt(i) - 48;
 				num = num + n;
-
 			}
 
 		}

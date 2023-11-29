@@ -18,5 +18,4 @@ public class Find1stAnd2ndMaxWithoutBSort {
 		}
 		System.out.println(fmax + " " + smax);
 	}
-
 }
