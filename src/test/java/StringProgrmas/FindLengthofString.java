@@ -10,7 +10,6 @@ public class FindLengthofString {
 			count++;
 		}
 		System.out.println(count);
-//		System.out.println(s.length());
 	}
 
 }

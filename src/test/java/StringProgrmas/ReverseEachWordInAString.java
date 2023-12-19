@@ -9,7 +9,6 @@ public class ReverseEachWordInAString {
 			String st = str[i];
 			for (int j = st.length() - 1; j >= 0; j--) {
 				System.out.print(st.charAt(j));
-
 			}
 			System.out.print(" ");
 
